@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    width: 200px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: -4px 2px 47px -5px rgba(28,12,12,0.4);
+    -webkit-box-shadow: -4px 2px 47px -5px rgba(28,12,12,0.4);
+    -moz-box-shadow: -4px 2px 47px -5px rgba(28,12,12,0.4);
+}
+
+.container:hover {
+    box-shadow: -4px 2px 47px -5px rgba(0, 255, 106, 0.929);
+    -webkit-box-shadow: -4px 2px 47px -5px rgba(0, 255, 106, 0.929);
+    -moz-box-shadow: -4px 2px 47px -5px rgba(0, 255, 106, 0.929);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
